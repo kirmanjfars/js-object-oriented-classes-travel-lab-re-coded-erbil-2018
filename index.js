@@ -21,7 +21,7 @@ class Route{
   }
   
   blocksTravelled(beg , end){
-    return this.end - this.beg;
+    return this.end.vertical - this.beg.vertical;
   }
   
   
