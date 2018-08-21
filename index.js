@@ -20,7 +20,7 @@ class Route{
     this.end = end;
   }
   
-  blocksTravelled(){
+  blocksTravelled(this.beg, this.end){
     return this.end - this.beg;
   }
   
