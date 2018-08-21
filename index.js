@@ -23,6 +23,8 @@ class Route{
   blocksTravelled(){
     return this.end - this.beg;
   }
+  
+  
 }
 
 
