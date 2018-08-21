@@ -24,7 +24,7 @@ class Route{
    
    if(this.end.vertical == this.beg.vertical){
      return 4;
-   }else{
+   }else if( !(this.end.vertical == this.beg.vertical) || !(this.end.horizental == this.beg.vertical) ){
     return this.end.vertical - this.beg.vertical;
    }
   }
