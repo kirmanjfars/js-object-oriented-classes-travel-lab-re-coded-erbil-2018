@@ -1,6 +1,4 @@
 class Driver{
   
-  constructor(){
-    
-  }
+  
 }
