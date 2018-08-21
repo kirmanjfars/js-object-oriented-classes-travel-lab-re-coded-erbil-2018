@@ -16,8 +16,12 @@ class Driver{
 
 class Route{
   constructor(beg, end){
-    this.big=big; 
+    this.beg=beg; 
     this.end = end;
+  }
+  
+  blocksTravelled(){
+    return this.end - this.beg;
   }
 }
 
