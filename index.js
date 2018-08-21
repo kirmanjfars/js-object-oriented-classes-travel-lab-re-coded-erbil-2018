@@ -14,9 +14,24 @@ class Driver{
 }
 
 
-class Route(){
+class Route{
   constructor(beg, end){
     this.big=big; 
     this.end = end;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
