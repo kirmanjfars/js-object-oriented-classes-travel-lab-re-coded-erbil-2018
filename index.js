@@ -21,7 +21,12 @@ class Route{
   }
   
   blocksTravelled(beg , end){
+   
+   if(this.end.vertical == this.beg.vertical){
+     
+   }else{
     return this.end.vertical - this.beg.vertical;
+   }
   }
   
   
